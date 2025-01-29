@@ -1,0 +1,47 @@
+.card {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body img {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+  justify-content: space-between; 
+}
+
+.card-body h2 {
+  margin-top: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 8px;
+  box-shadow: 10px 15px 10px grey;
+}
+
+div.card {
+  border: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+a:hover {
+  font-weight: 650;
+  color: blue;
+  transition: 100ms;
+}
+
+.container-card-service {
+  height: 100%; 
+}
